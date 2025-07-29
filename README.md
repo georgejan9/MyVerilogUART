@@ -30,6 +30,21 @@ my-verilog-UART/
 ├── TX_tb.v # Testbench for TX
 └── UART_tb.v # Testbench for UART
 
+---
+
+✅ Features
+Modular, reusable Verilog code
+
+Clean and simple testbenches
+
+Fully synthesizable UART core
+
+Open-source and simulator-friendly
+
+Easily extendable for FIFO buffers or parity logic
+
+👤 Author
+Developed by George Jan
 
 ---
 
@@ -46,17 +61,3 @@ iverilog -o uart_tb tb/UART_tb.v src/*.v
 vvp uart_tb
 
 ---
-
-✅ Features
-Modular, reusable Verilog code
-
-Clean and simple testbenches
-
-Fully synthesizable UART core
-
-Open-source and simulator-friendly
-
-Easily extendable for FIFO buffers or parity logic
-
-👤 Author
-Developed by George Jan
