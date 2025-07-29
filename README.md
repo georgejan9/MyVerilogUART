@@ -43,6 +43,7 @@ Open-source and simulator-friendly
 
 Easily extendable for FIFO buffers or parity logic
 
+---
 👤 Author
 Developed by George Jan
 
