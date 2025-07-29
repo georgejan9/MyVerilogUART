@@ -45,7 +45,7 @@ iverilog -o uart_tb tb/UART_tb.v src/*.v
 # Run simulation
 vvp uart_tb
 
-
+---
 
 ✅ Features
 Modular, reusable Verilog code
