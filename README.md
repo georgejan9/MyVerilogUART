@@ -17,21 +17,6 @@ Each module has a dedicated testbench for functional verification.
 
 ---
 
-## 📁 Project Structure
-
-my-verilog-UART/
-├── src/
-│ ├── BaudRateGenerator.v # Baud rate tick generator
-│ ├── RX.v # UART receiver
-│ ├── TX.v # UART transmitter
-│ └── UART.v # Integrated UART module
-└── tb/
-├── BaudRateGenerator_tb.v # Testbench for BaudRateGenerator
-├── TX_tb.v # Testbench for TX
-└── UART_tb.v # Testbench for UART
-
----
-
 ✅ Features
 Modular, reusable Verilog code
 
@@ -51,14 +36,31 @@ Developed by George Jan
 
 ## ▶️ Simulation Instructions
 
-This project can be simulated using tools like **ModelSim**, **Icarus Verilog**, or **Vivado**.
+This project is designed to be simulated using ModelSim.
 
-### Example using Icarus Verilog:
-```bash
-# Compile the testbench with all source files
-iverilog -o uart_tb tb/UART_tb.v src/*.v
+💻 Steps: Open ModelSim
 
-# Run simulation
-vvp uart_tb
+Create a new project
 
----
+Add all Verilog source files from the src/ folder
+
+Add the relevant testbench from tb/
+
+Compile all files
+
+Run the simulation
+
+(Optional) Use Add Wave and view signals
+
+## 📁 Project Structure
+
+my-verilog-UART/
+├── src/
+│ ├── BaudRateGenerator.v # Baud rate tick generator
+│ ├── RX.v # UART receiver
+│ ├── TX.v # UART transmitter
+│ └── UART.v # Integrated UART module
+└── tb/
+├── BaudRateGenerator_tb.v # Testbench for BaudRateGenerator
+├── TX_tb.v # Testbench for TX
+└── UART_tb.v # Testbench for UART
