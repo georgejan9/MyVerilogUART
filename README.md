@@ -54,6 +54,8 @@ Run the simulation
 
 ## 📁 Project Structure
 
+```
+
 my-verilog-UART/
 ├── src/
 │ ├── BaudRateGenerator.v # Baud rate tick generator
@@ -64,3 +66,5 @@ my-verilog-UART/
 ├── BaudRateGenerator_tb.v # Testbench for BaudRateGenerator
 ├── TX_tb.v # Testbench for TX
 └── UART_tb.v # Testbench for UART
+
+```
